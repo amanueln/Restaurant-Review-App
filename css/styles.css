@@ -24,7 +24,7 @@ li {
     font-size: 10pt;
     color: #333;
     /*    padding:40px;*/
-    float: left
+
 }
 
 a {
@@ -67,6 +67,36 @@ section {
     display: block;
 }
 
+@import "compass/css3";
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+/* .flex-item {
+  background: tomato;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+} */
 #maincontent {
     background-color: #f3f3f3;
     min-height: 100%;
@@ -151,10 +181,20 @@ nav h1 a {
 /* ====================== Restaurant Filtering ====================== */
 
 .filter-options {
-    width: 100%;
-    height: 50px;
+
     background-color: #3397DB;
     align-items: center;
+
+    list-style: none;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
 }
 
 .filter-options h2 {
@@ -184,10 +224,13 @@ nav h1 a {
     background-color: #f3f3f3;
     list-style: outside none none;
     margin: 0;
-    
+
     justify-content: center;
     text-align: center;
-        
+    justify-content: center;
+    flex-wrap: wrap;
+     justify-content:
+
 }
 
 #restaurants-list li {
