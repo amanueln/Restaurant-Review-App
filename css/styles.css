@@ -67,7 +67,7 @@ section {
     display: block;
 }
 
-@import "compass/css3";
+
 
 .flex-container {
   padding: 0;
@@ -182,7 +182,7 @@ nav h1 a {
 
 .filter-options {
 
-    background-color: #3397DB;
+    background-color: #252831;
     align-items: center;
 
     list-style: none;
@@ -194,7 +194,7 @@ nav h1 a {
     display: flex;
 
     -webkit-flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .filter-options h2 {
