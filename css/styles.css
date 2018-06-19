@@ -179,7 +179,13 @@ nav h1 a {
 }
 
 /* ====================== Restaurant Filtering ====================== */
-
+.filter-header{
+  background-color: #252831;
+margin: 0;
+color: white;
+text-transform: uppercase;
+text-align: center;
+}
 .filter-options {
 
     background-color: #252831;
@@ -388,12 +394,4 @@ nav h1 a {
 
 #restaurant-hours td {
     color: #666;
-}
-
-@media screen and (max-width: 800px) {
-    ul,
-    li {
-        width: 100%;
-        /* The width is 100%, when the viewport is 800px or smaller */
-    }
 }
