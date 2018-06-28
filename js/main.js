@@ -79,6 +79,7 @@ initMap = () => {
       });
   L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.jpg70?access_token={mapboxToken}', {
     mapboxToken: 'pk.eyJ1IjoiYW1hbnVlbG4iLCJhIjoiY2ppYjQ4dnJ5MTV6YTNrczlucDBneGIxYSJ9.Ni0cnDN5Zleyzz6lsop31Q',
+    mapboxToken: 'pk.eyJ1IjoiYW1hbnVlbG4iLCJhIjoiY2ppbWt2Y2RxMDU2ZjNwcmZqYXV1dnByYyJ9.Aar2CkYSCfX-ZYGQ_ag5zw',
     maxZoom: 18,
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
       '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
