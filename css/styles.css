@@ -24,7 +24,7 @@ li {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10pt;
     color: #333;
-    padding:40px;
+    /* padding:40px; */
 
 }
 
@@ -178,7 +178,7 @@ nav h1 a {
 /* ====================== Map ====================== */
 
 #map {
-    height: 400px;
+    height: 250px;
     width: 100%;
     background-color: #ccc;
 }
@@ -349,7 +349,7 @@ text-transform: uppercase;
 #reviews-container {
   border-bottom: 1px solid #d9d9d9;
 border-top: 1px solid #fff;
-padding: 50px 0px 0px;
+/* padding: 50px 0px 0px; */
 /* width: 100%; */
 text-align: -webkit-center;
 }
