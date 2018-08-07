@@ -19,6 +19,13 @@ body {
     padding: 0;
 }
 
+:focus {
+  color: blue;
+  font-size: bold;
+}
+li:focus{
+  background: blue;
+}
 ul,
 li {
     font-family: Arial, Helvetica, sans-serif;

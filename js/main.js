@@ -40,6 +40,7 @@ const fillNeighborhoodsHTML = (neighborhoods = self.neighborhoods) => {
   });
 }
 
+
 /**
  * Fetch all cuisines and set their HTML.
  */
@@ -206,3 +207,7 @@ const addMarkersToMap = (restaurants = self.restaurants) => {
     self.markers.push(marker);
   });
 } */
+
+// focus the filter result dropdown onload.
+document.querySelector('[tabindex="0"]').focus();
+console.log("tabed");

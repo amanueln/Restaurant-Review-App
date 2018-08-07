@@ -20,13 +20,13 @@
     </header>
 
     <main id="maincontent">
-        <section id="map-container">
+        <section id="map-container" tabindex="-1">
             <div id="map"></div>
         </section>
         <section>
           <h2 class="filter-header">Filter Results</h2>
             <div class="filter-options">
-                <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
+                <select id="neighborhoods-select" name="neighborhoods" tabindex="0" onchange="updateRestaurants()">
           <option value="all">All Neighborhoods</option>
         </select>
                 <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()">
