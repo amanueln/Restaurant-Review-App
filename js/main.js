@@ -4,6 +4,19 @@ let restaurants,
 var newMap
 var markers = []
 
+//check for service worker support
+if ('serviceWorker' in navigator) {
+  // Register a service worker hosted at the root of the
+  // site using the default scope.
+  navigator.serviceWorker.register('/js/sw.js').then(function(registration) {
+    console.log('Service worker registration succeeded:', registration);
+  }, /*catch*/ function(error) {
+    console.log('Service worker registration failed:', error);
+  });
+} else {
+  console.log('Service workers are not supported.');
+}
+
 /**
  * Fetch neighborhoods and cuisines as soon as the page is loaded.
  */
@@ -210,4 +223,3 @@ const addMarkersToMap = (restaurants = self.restaurants) => {
 
 // focus the filter result dropdown onload.
 document.querySelector('[tabindex="0"]').focus();
-console.log("tabed");
